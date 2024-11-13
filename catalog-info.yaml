@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "node-service-shk"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "node-service-shk"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
